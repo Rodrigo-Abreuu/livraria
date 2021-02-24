@@ -7,13 +7,13 @@ public class Livro {
 	private double valor;
 	private String isbn;
 	private Autor autor;
+	private boolean impresso;
 
 	public Livro (Autor autor){
 		this.autor = autor;
 		this.isbn = "000-00-00000-00-0";
+		this.impresso = true;
 	}
-	
-	public Livro () {}
 	
 	boolean temAutor(){
 		return this.autor != null;
@@ -34,7 +34,7 @@ public class Livro {
 		System.out.println("---");
 	}
 	
-	public boolean aplicarDescontoDe(double porcentagem){
+	public boolean aplicaDescontoDe(double porcentagem){
 		if (porcentagem > 0.3){
 			return false;
 		}
