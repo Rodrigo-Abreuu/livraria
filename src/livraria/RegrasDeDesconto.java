@@ -5,17 +5,17 @@ public class RegrasDeDesconto {
 	public static void main(String[] args) {
 		
 		Autor autor = new Autor();
-		autor.setNome("Rodrigo");
+		autor.setNome("Rodrigo Turini");
 		
-		Livro livro = new Livro(autor);
-		livro.setValor(59.90);
+		Livro livroFisico = new LivroFisico(autor);
+		livroFisico.setValor(59.90);
 		
-		if (!livro.aplicaDescontoDe(0.3)){
+		if (!livroFisico.aplicaDescontoDe(0.3)){
 			System.out.println("Desconto do livro não pode ser"
 					+ " maior que 30%");
 		} else {
 			System.out.println("Valor do livro com desconto: " 
-						+ livro.getValor());
+						+ livroFisico.getValor());
 		}
 		
 		Ebook ebook = new Ebook(autor);
