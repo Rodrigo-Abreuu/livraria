@@ -1,4 +1,6 @@
-package livraria;
+package br.com.casadocodigo.produtos;
+
+import br.com.casadocodigo.livraria.Autor;
 
 public abstract class Livro implements Produto{
 	
@@ -17,7 +19,7 @@ public abstract class Livro implements Produto{
 		return this.autor != null;
 	}
 	
-	void mostrarDetalhes(){
+	public void mostrarDetalhes(){
 		String mensagem = "Mostrando detalhes do livro ";
 		System.out.println(mensagem);
 		System.out.println("Nome: " + nome);
@@ -28,7 +30,6 @@ public abstract class Livro implements Produto{
 		if (this.temAutor()) {
 			autor.mostrarDetalhes();
 		}
-		
 		System.out.println("---");
 	}
 	

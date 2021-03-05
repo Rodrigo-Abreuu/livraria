@@ -1,4 +1,6 @@
-package livraria;
+package br.com.casadocodigo.produtos;
+
+import br.com.casadocodigo.livraria.Autor;
 
 public class Ebook extends Livro{
 
