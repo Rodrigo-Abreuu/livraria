@@ -7,12 +7,11 @@ public class CarrinhoDeCompras {
 	private double total;
 	private Produto[] produtos = new Produto[10];
 	
-	@SuppressWarnings("unused")
 	private int contador = 0;
 	
 	public void adiciona(Produto produto){
 		System.out.println("Adicionando: " + produto);
-		this.produtos[1] = produto;
+		this.produtos[contador] = produto;
 		contador ++;
 		total += produto.getValor();
 	}
