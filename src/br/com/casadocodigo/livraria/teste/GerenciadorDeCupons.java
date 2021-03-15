@@ -1,4 +1,4 @@
-package br.com.casadocodigo.teste;
+package br.com.casadocodigo.livraria.teste;
 
 import java.util.HashMap;
 import java.util.Map;

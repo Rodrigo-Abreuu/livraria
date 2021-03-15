@@ -1,4 +1,4 @@
-package br.com.casadocodigo.produtos;
+package br.com.casadocodigo.livraria.produtos;
 
 import br.com.casadocodigo.livraria.Autor;
 

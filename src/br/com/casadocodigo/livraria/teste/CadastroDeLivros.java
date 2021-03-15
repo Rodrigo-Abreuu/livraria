@@ -1,8 +1,8 @@
-package br.com.casadocodigo.teste;
+package br.com.casadocodigo.livraria.teste;
 
 import br.com.casadocodigo.livraria.Autor;
-import br.com.casadocodigo.produtos.Livro;
-import br.com.casadocodigo.produtos.LivroFisico;
+import br.com.casadocodigo.livraria.produtos.Livro;
+import br.com.casadocodigo.livraria.produtos.LivroFisico;
 
 public class CadastroDeLivros {
 
